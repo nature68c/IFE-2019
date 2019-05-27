@@ -16,6 +16,6 @@ IFE-basic-2019
 
 [day4->戳这里](https://nature68c.github.io/IFE-2019/day4/day4.html)
 
-[day5(1)->戳这里](https://nature68c.github.io/IFE-2019/day5/resume1.html)-->        
-[day5(2)->戳这里](https://nature68c.github.io/IFE-2019/day5/resume2.html)-->      
-[day5(3)->戳这里](https://nature68c.github.io/IFE-2019/day5/resume3.html)-->
+[day5-6(1)->戳这里](https://nature68c.github.io/IFE-2019/day5/resume1.html)-->        
+[day5-6(2)->戳这里](https://nature68c.github.io/IFE-2019/day5/resume2.html)-->      
+[day5-6(3)->戳这里](https://nature68c.github.io/IFE-2019/day5/resume3.html)-->
