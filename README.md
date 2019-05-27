@@ -12,4 +12,4 @@ IFE-basic-2019
 
 [day2->戳这里](https://nature68c.github.io/IFE-2019/day2/day2-resume.html)
 
-[day2->戳这里](https://nature68c.github.io/IFE-2019/day3/resume.html)
+[day3->戳这里](https://nature68c.github.io/IFE-2019/day3/resume.html)
