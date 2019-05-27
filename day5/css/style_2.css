@@ -1,0 +1,47 @@
+*{
+    list-style: none;
+}
+body{
+    background: #fafafa;
+}
+li{
+    margin-left: -40px;
+    font-weight: 600;
+}
+p{
+    font-weight: 400;
+}
+h3{
+    font-size: 24px;
+}
+.title{
+    background: #75a6f4;
+    width: 200px;
+    height: 830px;
+    padding-top: 40px;
+    text-align: center;
+    font-size: 27px;
+    color: #fff;
+}
+.title,
+.content{
+    float: left;
+}
+.content{
+    margin-left: 20px;
+}
+.float li{
+    float: left;
+    width: 300px;
+    display: inline-block;
+}
+.float::after{
+    content: "";
+    height: 0;
+    display: block;
+    clear: both;
+}
+.float p{
+    display: inline;
+    margin-left: 10px;
+}

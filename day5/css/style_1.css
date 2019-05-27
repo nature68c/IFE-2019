@@ -1,0 +1,28 @@
+*{
+    list-style: none;
+}
+body{
+    background: #fafafa;
+}
+li{
+    margin-left: -40px;
+    font-weight: 600;
+}
+p{
+    font-weight: 400;
+}
+.float li{
+    float: left;
+    width: 300px;
+    display: inline-block;
+}
+.float::after{
+    content: "";
+    height: 0;
+    display: block;
+    clear: both;
+}
+.float p{
+    display: inline;
+    margin-left: 10px;
+}
