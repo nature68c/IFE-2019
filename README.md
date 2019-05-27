@@ -28,3 +28,5 @@ IFE-basic-2019
 [day12-15->戳这里](https://nature68c.github.io/Arts-festival/SUSE-Arts-festival/index.html)
 
 [day16->戳这里](https://nature68c.github.io/IFE-2019/day16/number.html)
+
+[day17-18->戳这里](https://nature68c.github.io/IFE-2019/day17-18/caculate.html)
