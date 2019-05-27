@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>ife-index</title>
+    </head>
+    <body>
+        <div id="top" class="clearfix">
+            <p>Logo</p>
+            <ul>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Register</a></li>
+                <li><a href="#">Github</a></li>
+            </ul>
+        </div>
+        <div id="center">
+            <div id="banner">
+                <ul>
+                    <li><a href="#">1</a></li>
+                    <li id="banner-activate"><a href="#">2</a></li>  
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                </ul>
+            </div>
+
+            <section class="info-box">
+                    <ul>
+                        <li><a href="# class="active>HOME</a></li>
+                        <li><a href="#">PROTILE</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                    </ul>
+                    <div class="panels">
+                        <article class="active-panel">
+                                <section class="content">
+                                        <div class="content-item content1">My content1</div>
+                                        <div class="content-item content2">My content2</div>
+                                        <div class="content-item content3">My content3</div>
+                                        <div class="content-item content4">content4</div>
+                                        <div class="content-item content5">content5</div>
+                                        <div class="content-item content6">content6</div>
+                                        <div class="content-item content7">content7</div>
+                                        <div class="content-item content8">My content8</div>
+                                        <div class="content-item content9">My content9</div>
+                                        <div class="content-item content10">My content10</div>
+                                    </section>
+                        </article>
+                        <article>
+                                <p>
+                                    首先我们保存所有的选项卡和所有的面板引用到两个变量中，名为 tabs 和 panels，这样此后我们可以容易地为它们做事。
+                                    然后我们使用 for 循环遍历所有的选项卡，并且在每一个上运行叫做setTabHandler() 的函数，此函数建立当每个选项卡被点击时应该发生的功能。 运行时， 函数会被传递选项卡，和一个索引数i 指明选项卡在tabs 数组中的位置。
+                                    在 setTabHandler() 函数中，这个标签创建了一个 onclick 事件来处理点击，所以当标签被点击的时候，接下来会发生：
+                                    用一个 for 循环清除所有标签当前存在的类。
+                                    当点击的时候在标签上创建了一个 active 类——从相关联的元素中继承了CSS的一些属性，具有和panels的样式相同的 color 和 background-color。
+                                    用一个 for 循环清除所有面板当前存在的类。
+                                    当标签被点击的时候在和标签相对应的面板上创建了一个 active-panel 类——从相关联的元素中继承了CSS的一些属性，使其 z-index 属性被设置为1，让它能位于所有的面板的上面。
+                                </p>
+                        </article>
+                        <article>
+                                  <div>
+                                        首先我们保存所有的选项卡和所有的面板引用到两个变量中，名为 tabs 和 panels，这样此后我们可以容易地为它们做事。
+                                        然后我们使用 for 循环遍历所有的选项卡，并且在每一个上运行叫做setTabHandler() 的函数，此函数建立当每个选项卡被点击时应该发生的功能。 运行时， 函数会被传递选项卡，和一个索引数i 指明选项卡在tabs 数组中的位置。
+                                        在 setTabHandler() 函数中，这个标签创建了一个 onclick 事件来处理点击，所以当标签被点击的时候，接下来会发生：
+                                        用一个 for 循环清除所有标签当前存在的类。
+                                        当点击的时候在标签上创建了一个 active 类——从相关联的元素中继承了CSS的一些属性，具有和panels的样式相同的 color 和 background-color。
+                                        用一个 for 循环清除所有面板当前存在的类。
+                                        首先我们保存所有的选项卡和所有的面板引用到两个变量中，名为 tabs 和 panels，这样此后我们可以容易地为它们做事。
+                                        然后我们使用 for 循环遍历所有的选项卡，并且在每一个上运行叫做setTabHandler() 的函数，此函数建立当每个选项卡被点击时应该发生的功能。 运行时， 函数会被传递选项卡，和一个索引数i 指明选项卡在tabs 数组中的位置。
+                                        在 setTabHandler() 函数中，这个标签创建了一个 onclick 事件来处理点击，所以当标签被点击的时候，接下来会发生：
+                                        用一个 for 循环清除所有标签当前存在的类。
+                                        当点击的时候在标签上创建了一个 active 类——从相关联的元素中继承了CSS的一些属性，具有和panels的样式相同的 color 和 background-color。
+                                        用一个 for 循环清除所有面板当前存在的类。
+                                        当标签被点击的时候在和标签相对应的面板上创建了一个 active-panel 类——从相关联的元素中继承了CSS的一些属性，使其 z-index 属性被设置为1，让它能位于所有的面板的上面。
+                                </div> 
+                        </article>
+                    </div>
+                </section>
+        </div>
+        <div id="bottom">
+            ©️2019 ife.baidu.com
+        </div>
+            
+    <link type="text/css" rel="stylesheet" href="reset.css">
+    <link type="text/css" rel="stylesheet" href="ife.css">
+    <script src="flex-box.js"></script>
+    </body>
+</html>
